@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+    <title>RECOLECCIÓN DE DATOS</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="content">
+          
+    <h1>RECOLECCIÓN DE DATOS</h1>
+    
+
+    <div class="parrafo">
+    <h4 class="back"><a  href="#"  onclick="closeMe()" style="text-decoration: none ; color:#BFAF00;;">Servicios </a><span style="color: #5f7061;;">/</span><span style="color:#737373;"> Recoleccion de datos</span></h4> 
+    <br>
+    <p>Recolectamos datos con las herramientas necesarias para el desarrollo de   estrategias y procesos mediante el cual, solucionaremos sus problemas empresariales o le brindaremos nuevas oportunidades.</p>
+</div>
+    <h1 class="img-title-rec">Método de recolección </h1>
+    <img src="../img/picservices/METODOS RECOLECION.png" alt="" width="300">
+
+</div>
+</div>
+
+
+    
+<script>
+    function closeMe()
+    {
+        window.opener = self;
+        window.close();
+    }
+    </script>
+
+</body>
+<style>
+    /*FUENTES DE GOOGLE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+
+.container{
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    /* bbackground-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); */
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h1{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #00BFAF;
+}
+
+
+
+.content{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    font-size: 30px;
+}
+
+.back{
+    font-size: .4em;
+    padding: 0 30px 0 30px;
+    text-transform: uppercase;
+}
+
+
+.content p {
+    font-size: .6em;
+    font-weight: 300;
+    padding: 0 30px 0 30px;
+    text-align: justify; 
+    
+}
+
+
+.img-title-rec{
+    font-size: .9em !important;
+    color:  #365b6d !important;
+}
+
+@media screen and ( max-width: 476px ){
+    .container{
+        height: 120vh;
+    }
+    
+}
+
+</style>
+</html>
